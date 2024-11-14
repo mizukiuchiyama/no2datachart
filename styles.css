@@ -1,0 +1,93 @@
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styling */
+.article-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.article-header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-header p {
+    color: #666;
+}
+
+/* Image section styling */
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-image, .chart-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* Article content styling */
+.article-content p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+blockquote {
+    font-size: 1.1em;
+    color: #444;
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 4px solid #007acc;
+    background-color: #f0f8ff;
+}
+
+
+/* Styling for Other Data Sources section */
+.data-sources {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc; /* Change to a subtle dashed border */
+    font-size: 0.9em; /* Make font size slightly smaller */
+    color: #666; /* Use a softer gray color for the text */
+}
+
+.data-sources h3 {
+    font-size: 1.1em; /* Smaller heading size */
+    color: #666; /* Softer gray for the heading */
+    font-weight: normal; /* Make heading less bold */
+    margin-bottom: 8px;
+}
+
+.data-sources ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.data-sources li {
+    margin-bottom: 5px; /* Reduced margin for a compact look */
+}
+
